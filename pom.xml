@@ -15,15 +15,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <profiles>
-        <profile>
-            <id>BuildAspXFolder</id>
-            <build>
-                <directory>C:\tmp</directory>
-            </build>
-        </profile>
-    </profiles>
-
     <dependencyManagement>
         <dependencies>
             <dependency><groupId>com.mstrsdk.mstr</groupId><artifactId>commons-codec</artifactId><version>1.3</version></dependency>
@@ -58,7 +49,6 @@
     </dependencyManagement>
 
     <build>
-        <finalName>${project.artifactId}</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
