@@ -15,3 +15,10 @@ This BOM is used mainly as:
  - Parent for mstr-plugin-bom: this is the BOM used to build your custom MSTR Web SDK plugins
  - Parent for your MSTR Web app; you need to create a maven project that will include your MSTR Web content. Make sure to remove the JAR files from WEB-INF/libs. If you need an example, please send me an email to daniel@mstrsdk.com
 
+---
+
+This BOM was provided by [MSTR SDK](https://www.mstrsdk.com)
+
+Written by [Daniel Parra](mailto:daniel@mstrsdk.com)
+
+November 2019
